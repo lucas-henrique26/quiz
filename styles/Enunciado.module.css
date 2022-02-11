@@ -1,0 +1,45 @@
+.enunciado {
+    display: flex;
+    margin-top: 20px;
+    max-width: 90;
+}
+
+.texto {
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+@media (max-width: 1366px) {
+    .texto {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 1175px) {
+    .texto {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .texto {
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: auto;
+    }
+}
+
+@media (max-width: 414px) {
+    .texto {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .texto {
+        font-size: 1.2rem;
+    }
+}
+
+
+
