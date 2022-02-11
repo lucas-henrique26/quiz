@@ -61,37 +61,7 @@ const questoes: QuestaoModel[] = [
         RespostaModel.errada('Steve Jobs'),
         RespostaModel.errada('Santos Dumont'),
         RespostaModel.certa('Thomas Edison')
-    ]),
-    new QuestaoModel(211, 'A que temperatura a água ferve?', [
-        RespostaModel.errada('0ºC'),
-        RespostaModel.errada('200ºC'),
-        RespostaModel.errada('180ºC'),
-        RespostaModel.certa('100ºC')
-    ]),
-    new QuestaoModel(212, 'Um anel tem 3 pedras preciosas. Quantas pedras preciosas têm 11 anéis?', [
-        RespostaModel.errada('53'),
-        RespostaModel.errada('77'),
-        RespostaModel.errada('110'),
-        RespostaModel.certa('33')
-    ]),
-    new QuestaoModel(213, 'Quais as duas línguas mais faladas no mundo?', [
-        RespostaModel.errada('Inglês e espanhol'),
-        RespostaModel.errada('Mandarim chinês e francês'),
-        RespostaModel.errada('Inglês e português'),
-        RespostaModel.certa('Inglês e mandarim chinês')
-    ]),
-    new QuestaoModel(214, 'Kryptonita é a fraqueza de qual super-herói?', [
-        RespostaModel.errada('Batman'),
-        RespostaModel.errada('Hulk'),
-        RespostaModel.errada('Flash'),
-        RespostaModel.certa('Super-Homem')
-    ]),
-    new QuestaoModel(215, 'Quem pintou Mona Lisa?', [
-        RespostaModel.errada('Tarsila do Amaral'),
-        RespostaModel.errada('Pablo Picasso'),
-        RespostaModel.errada('Van Gogh'),
-        RespostaModel.certa('Leonardo da Vinci')
-    ]),
+    ])
 ]
 
 export default questoes
