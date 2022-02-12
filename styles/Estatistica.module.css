@@ -22,5 +22,22 @@
 }
 
 @media (max-width: 414px) {
-    
+    .valor {
+        height: 150px;
+        width: 150px;
+        border-radius: 75px;
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 404px) {
+    .valor {
+        height: 110px;
+        width: 110px;
+        border-radius: 65px;
+        font-size: 3.2rem;
+    }
+    .texto {
+        font-size: 1.5rem;
+    }
 }
