@@ -21,7 +21,7 @@
     font-weight: 200;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 500px) {
     .valor {
         height: 100px;
         width: 100px;
@@ -35,12 +35,12 @@
 
 @media (max-width: 404px) {
     .valor {
-        height: 110px;
-        width: 110px;
-        border-radius: 65px;
-        font-size: 3.2rem;
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        font-size: 2.4rem;
     }
     .texto {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 }
