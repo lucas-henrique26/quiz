@@ -10,12 +10,22 @@
 @media (max-width: 596px) {
     .resultado {
         flex-wrap: wrap;
+        
     }
 }
 
 @media (max-width: 414px) {
     .resultado {
         height: 150vh;
+        font-size: 1.9rem;
+        text-align: center;
+        height: 80vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .resultado {
+        height: 100vh;
         font-size: 1.9rem;
         text-align: center;
     }

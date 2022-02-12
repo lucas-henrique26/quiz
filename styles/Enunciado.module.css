@@ -36,7 +36,14 @@
 
 @media (max-width: 375px) {
     .texto {
+        margin-top: 100px;
         font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 374px) {
+    .texto {
+        margin-top: 20px;
     }
 }
 

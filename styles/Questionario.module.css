@@ -6,3 +6,30 @@
     height: 100vh;
 }
 
+@media (max-width: 600px) {
+    .questionario {
+        height: 95vh;
+    }
+}
+
+@media (max-width: 414px) {
+    .questionario {
+        height: 80vh;
+    }
+}
+
+@media (max-width: 375px) {
+    .resultado {
+        height: 50vh;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+}
+
+@media (max-width: 360px) {
+    .resultado {
+        height: 30vh;
+        font-size: 1.9rem;
+        text-align: center;
+    }
+}
