@@ -16,7 +16,7 @@
 
 @media (max-width: 414px) {
     .resultado {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         align-items: center;
         flex-wrap: wrap;
         height: 80vh;
